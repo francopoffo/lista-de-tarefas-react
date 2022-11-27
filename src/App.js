@@ -1,8 +1,13 @@
 
 import './App.css';
+import TarefaLista from './components/TarefaLista';
 
 function App() {
-  return null
+  return (
+    <div>
+      <TarefaLista></TarefaLista>
+    </div>
+  )
 }
 
 export default App;
